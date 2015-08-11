@@ -26,6 +26,17 @@ public class ThirdActivity extends AppCompatActivity {
                 startActivity(mIntent);
             }
         });
+
+        //Booking Button
+        Button Edit = (Button) findViewById(R.id.btnEdit);
+
+        Edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mIntent = new Intent(getApplicationContext(), SecondActivity.class);
+                startActivity(mIntent);
+            }
+        });
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -5,16 +5,19 @@
     <string name="title_activity_second">Booking</string>
     <string name="title_activity_third">Reservations</string>
 
-    //Splash text
+
+//Splash text
     <string name="Splash1_Text">Welcome to Marks\' Caravan and Camping. <br></br> Our goal is your ultimate satisfaction. For each of the sites the pricing is as follows:<br></br></string>
     <string name="Splash2_Text">Please use the buttons below to either book your reservation or display your current reservation.<br></br></string>
 
-    //Pricing located here so is easier to change
+
+//Pricing located here so is easier to change
     <string name="CabinPrice_text">Cabin - £40</string>
     <string name="CaravanPrice_text">Caravan - £30</string>
     <string name="TentPrice_text">Tent - £20</string>
 
-    //Park information
+
+//Park information
     <string name="Lothian_text">This is some text about the Lothian Burn Camping and Caravan Park</string>
     <string name="Bunnel_text">This is some text about the Loch Bunnel Touring Park</string>
     <string name="Tennents_text">This is some text about the Tennents Holiday Park</string>
