@@ -16,24 +16,32 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-//button stuff
-        Button book = (Button) findViewById(R.id.button);
+//Booking Button
+        Button Booking = (Button) findViewById(R.id.btnBooking);
 
-        book.setOnClickListener(new View.OnClickListener() {
+        Booking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent mIntent = new Intent(getApplicationContext(), SecondActivity.class);
                 startActivity(mIntent);
             }
         });
+//Reservation Button
+        Button Reservation = (Button) findViewById(R.id.btnReservation);
 
+        Reservation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mIntent = new Intent(getApplicationContext(), ThirdActivity.class);
+                startActivity(mIntent);
+            }
+        });
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
-        //It works fuck
         return true;
     }
 

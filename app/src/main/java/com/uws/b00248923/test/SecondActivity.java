@@ -15,10 +15,21 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        //button stuff
-        Button book = (Button) findViewById(R.id.button3);
+ //Home Button
+        Button Home = (Button) findViewById(R.id.btnHome);
 
-        book.setOnClickListener(new View.OnClickListener() {
+        Home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mIntent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(mIntent);
+            }
+        });
+
+//Reserve Button
+        Button Reserve = (Button) findViewById(R.id.btnReserve);
+
+        Reserve.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent mIntent = new Intent(getApplicationContext(), ThirdActivity.class);
