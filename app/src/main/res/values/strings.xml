@@ -23,6 +23,13 @@
     <string name="Tennents_text">This is some text about the Tennents Holiday Park</string>
     <string name="title_activity_test">TestActivity</string>
 
+
+//Spinner Options Array
+    <string-array name="sites_array">
+        <item>Lothian Burn Camping and Caravan Park</item>
+        <item>Loch Bunnel Touring Park</item>
+        <item>Tennents Holiday Park</item>
+    </string-array>
     <string name="hello_world">Hello world!</string>
 
 </resources>
