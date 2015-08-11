@@ -41,8 +41,17 @@
         android:layout_height="wrap_content"
         android:text="This text will change based on spinner selection"
         android:id="@+id/txtvSiteInfo"
-        android:layout_below="@+id/spinner"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="106dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewSiteImage"
+        android:src="@mipmap/no_selection"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner"
+        android:layout_above="@+id/txtvSiteInfo"
+        android:layout_below="@+id/btnHome" />
 
 </RelativeLayout>
